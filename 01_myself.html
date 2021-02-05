@@ -3,15 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>안준모</title>
     <style>
+        body
+        {
+            background-color:
+        }
         h1{
-            color: white;
-            background-color: black;
+            color: black;
+            background-color: rgb(245, 245, 184);
         }
         h3{
             color: red;
            
+        }
+        .myself
+        {
+            
+            border: 1px solid black;
+            
+        }
+        .맛점
+        {
+            color: green;
+            background-color: aqua;
+           
+        }
+        input[type=checkbox]:checked+div
+        {
+            height: 300px;
+        }
+        div
+        {
+            overflow: hidden;
+            width: 650px;
+            height: 0px;
+            -ms-transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
         }
     </style>
 </head>
@@ -24,6 +54,7 @@
         <li>            
             <a href="#self">신상정보</a>            
         </li>
+        <br>
         <li>
             
             <a href="https://jm-94.github.io/lotto/lotto.html">C언어 프로젝트 1 : Lotto</a>            
@@ -36,41 +67,57 @@
     <h3>다들 원하는 거 다 이루시길</h3>
     <hr>
     <br>
-    <img src="성공.jpg" width="700" height="400" alt="">
+    <video poster="성공.jpg" 
+    width="500px" height="400px" 
+    src="Code.mp4" controls muted autoplay></video>
 <br>
 <br>
     <hr>
 <br>
 <br>
     <h2>신상정보</h2>
-    <p id="self">
-        이름 : 안준모 <br>
+    <p>누르시오</p><input type="checkbox">
+    <div>
+    <p id="self" class="myself">
+        이름 : 안준모<a href="https://www.instagram.com/47jun_mo/"><img src="in.PNG" width="15" height="15" alt="???"></a>
+        <a href="https://www.facebook.com/profile.php?id=100003925314018"><img src="F.PNG" width="15" height="15" alt="???"></a>      
+        <br>
         성별 : 남<br>
         나이 : 1994년 04월 07일 (28세) <br>
-        출생 : 대구광역시 <br>
+        출생 : <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C">대구광역시</a>   <br>
         가족 : 부모님, 누나 <br>
         종교 : 무교 <br>
         연락처 : 010.6613.1032 <br>
         이메일 : fpskahs212@naver.com <br>
-        취미 : 독서, 자전거타기
+        취미 : 독서, 자전거타기 <br>
+        병역 : 필
     </p>
+</div>
     <a href="#return">처음으로</a>
-    
-    <hr>  
-   <h2>학교 근처 음식</h2>
-    <p> 급식 <br>
-        햄버거 : 롯데리아 <br>
-        국밥 : 할머니국밥, 뼈다귀감자탕<br>
-        중국집 : 홍콩반점, 짬뽕신 <br>
-        국수 : 미정국수 <br>
-        우동 : 역전우동 <br>
-        칼국수 : 태양칼국수
-        편의점 : Emart24, GS25, 7-eleven <br>
-        커피 : TheVenti, 스타벅스, Mass, 브루어스 <br>
-        빵 : 파리바게트 <br>
-        * 추신 추천 받아요....<br>
 
-    </p>
+    <hr>  
+   <h2>근처 음식 리스트</h2>
+    
+    <select> 
+        <option>급식</option> <br>
+        <option>햄버거 : 롯데리아, 맘스터치</option> <br>
+        <option>국밥 : 할머니국밥, 뼈다귀감자탕</option><br>
+        <option>중국집 : 홍콩반점, 짬뽕신</option> <br>
+        <option>국수 : 미정국수</option> <br>
+        <option>우동 : 역전우동</option> <br>
+        <option>칼국수 : 태양칼국수</option> <br>
+        <option>편의점 : Emart24, GS25, 7-eleven</option> <br>
+        <option>커피 : TheVenti, 스타벅스, Mass, 브루어스</option> <br>
+        <option>빵 : 파리바게트</option> <br>
+        <option>매주 금요일 주문은 박소윤씨에게 문의바랍니다.</option>
+    </select>
+    <h2 class="맛점">
+    맛있게 드세요
+    </h2>
+    <br>
+        *  추천 받아요....<br>
+
+   
    
 </body>
 </html>
