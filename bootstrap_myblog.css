@@ -62,13 +62,13 @@
   #about-me h2, #my-codeing-schedule h2, #skills h2 , #my-media h2, #contact h2, #follow h2{
     display:inline-block;
     text-align:center;
-    border:5px dashed #425effa2;
+    
     padding:20px 15px;
-    color:#2e4dfc;
+    color:purple;
     margin:auto 10px;
   }
   #about-me .content{
-    font-size:25px;
+    font-size:15px;
   }
   #about-me .right{
     font-size:25px;
