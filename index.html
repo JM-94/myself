@@ -5,12 +5,47 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
+<style>
+	input:-ms-input-placeholder {color:#947089;}
+	input::-webkit-input-placeholder {color:#947089;}
+	input::-moz-placeholder {color:#947089;}
+	#search{
+		height: 40px;
+		width: 400;
+		border: 1px solid #1b5ac2;
+		background: #ffffff;
 
+	}
+	input{
+		font-size: 16px;
+		width: 325;
+		padding: 10px;
+		border: 0px;
+		outline: none;
+		float: left;
+	}
+	button{
+		width: 50px;
+		height: 100%;
+		border: 0px;
+		background: #1b5ac2;
+		outline: none;
+		float: right;
+		color: #ffffff;
+	}
+</style>
 <head>
 	<title>Personal Information</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	
+	<div id="search">
+		<input type = "text" placegolder = "검색어 입력">
+		<button>검색</button>
+		
+
+	</div>
 </head>
 
 <body>
@@ -76,8 +111,9 @@
 						
 					</a>
 					<a href="game.html">
-						<img src="images/game.PNG" alt="" />
 						<h3>추억의 게임</h3>
+						<img src="images/game.PNG" alt="" />
+						
 					</a>
 				</div>
 			</section>
